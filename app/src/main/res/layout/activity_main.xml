@@ -21,29 +21,29 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/messagebutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="MESSAGE"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/fButton"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintStart_toEndOf="@+id/followbutton"
+                app:layout_constraintTop_toBottomOf="@+id/userdesc" />
 
             <Button
-                android:id="@+id/fButton"
+                android:id="@+id/followbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="FOLLOW"
-                app:layout_constraintEnd_toStartOf="@+id/button2"
+                app:layout_constraintEnd_toStartOf="@+id/messagebutton"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/userdesc" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/userdesc"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -53,10 +53,10 @@
                 android:textAlignment="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/username" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/icon"
                 android:layout_width="128dp"
                 android:layout_height="128dp"
                 android:layout_marginTop="32dp"
@@ -66,7 +66,7 @@
                 app:srcCompat="@android:drawable/sym_def_app_icon" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -76,7 +76,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+                app:layout_constraintTop_toBottomOf="@+id/icon" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

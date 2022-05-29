@@ -11,9 +11,10 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
-public class ListActivity extends AppCompatActivity{
+public class ListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
     }
+}
